@@ -1,4 +1,6 @@
 package co.edu.uco.ucobet.generales.domain.city.rules;
 
-public interface CityNameFormatIsValidRule {
+import co.edu.uco.ucobet.generales.domain.DomainRule;
+
+public interface CityNameFormatIsValidRule extends DomainRule<String> {
 }

@@ -1,4 +1,6 @@
 package co.edu.uco.ucobet.generales.domain.city.rules;
 
-public interface CityNameIsNotEmptyRule {
+import co.edu.uco.ucobet.generales.domain.DomainRule;
+
+public interface CityNameIsNotEmptyRule extends DomainRule<String> {
 }

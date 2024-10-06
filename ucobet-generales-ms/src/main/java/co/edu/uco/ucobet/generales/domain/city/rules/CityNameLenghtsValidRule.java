@@ -1,4 +1,6 @@
 package co.edu.uco.ucobet.generales.domain.city.rules;
 
-public interface CityNameLenghtsValidRule {
+import co.edu.uco.ucobet.generales.domain.DomainRule;
+
+public interface CityNameLenghtsValidRule extends DomainRule<String> {
 }
