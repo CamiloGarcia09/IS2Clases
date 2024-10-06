@@ -31,3 +31,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+
+/src/main/resources/bootsecurity.12
+/src/main/resources/application.properties
