@@ -14,7 +14,6 @@ public final class StateDomain extends Domain {
         super(id);
         setName(name);
         setCountry(country);
-
     }
 
     public final String getName() {
@@ -25,11 +24,11 @@ public final class StateDomain extends Domain {
         return country;
     }
 
-    public final void setCountry(final CountryDomain country) {
+    private final void setCountry(final CountryDomain country) {
         this.country = country;
     }
 
-    public final void setName(final String name) {
+    private final void setName(final String name) {
         this.name = name;
     }
 

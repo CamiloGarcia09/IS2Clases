@@ -4,7 +4,7 @@ import co.edu.uco.ucobet.generales.domain.Domain;
 
 import java.util.UUID;
 
-public class CountryDomain extends Domain {
+public final class CountryDomain extends Domain {
 
     private String name;
 
@@ -17,7 +17,7 @@ public class CountryDomain extends Domain {
         return name;
     }
 
-    public final void setName(final String name) {
+    private final void setName(final String name) {
         this.name = name;
     }
 }

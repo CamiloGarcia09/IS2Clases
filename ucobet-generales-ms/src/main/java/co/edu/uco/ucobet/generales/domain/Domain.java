@@ -14,7 +14,7 @@ public class Domain {
         return id;
     }
 
-    public final void setId(final UUID id) {
+    private final void setId(final UUID id) {
         this.id = id;
     }
 
