@@ -33,6 +33,7 @@ build/
 .vscode/
 
 
-
+#Personalizados
 /src/main/resources/bootsecurity.12
-/src/main/resources/application.properties
+ucobet-generales-ms.json
+/src/main/resources/bootstrap.properties
